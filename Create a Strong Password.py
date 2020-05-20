@@ -4,10 +4,10 @@ import random
 mix_c = "AB1CDEFGHI2JKLMN7OP3QRS4TUV8WX5YZ#@*+6-_&!0?%9;/[\]^`{|}~"
 lower_mix_c = mix_c.lower()
 all_c = mix_c + lower_mix_c
-list_1 = []
-
 agian = "Y"
+
 while agian == "Y":
+    list_1 = []
     try:
         Len_pass = int(input('\n[+]Enter how length of the password you want : '))
         if type(Len_pass) == int:
